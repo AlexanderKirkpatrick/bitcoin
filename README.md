@@ -1,6 +1,6 @@
 # _TITLE_
 
-#### By _**Rosario Ruvalcaba**_
+#### By _**Alex Kirkpatrick**_
 
 #### _SHORT DESCRIPTION._
 
@@ -27,7 +27,7 @@ _._
 
 * _Stylesheet, image, js file, and readme can also be opened from project home directory_
 
-* _(See Github page for this project](https://rosarioru.github.io/UPDATE/)_
+* _(See Github page for this project](https://alexanderkirkpatrick.github.io/UPDATE/)_
 
 ## Known Bugs
 
@@ -37,4 +37,4 @@ _._
 
 MIT License
 
-Copyright (c) _May_2022_ _Rosario Ruvalcaba Harwood_
+Copyright (c) _May_2022_ _Alexander Kirkpatrick_
