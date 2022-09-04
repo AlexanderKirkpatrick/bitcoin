@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import {BitcoinCompanies} from './bitcoin';
+import {CurrentValue} from './currentValue';
 
 // function clearFields() {
 //   $('#coin').val("");
@@ -16,11 +16,11 @@ $(document).ready(function() {
     let coin = $('#coin').val();
     $('#coin').val("");
 
-    let companies = new BitcoinCompanies();
+    let companies = new CurrentValue();
 
     $('.showName').text(`${coin} is ${companies}`);
     $('.showErrors').text("");
-   // $('.showErrors').text(`There was an error processing your request`); 
+    // $('.showErrors').text(`There was an error processing your request`); 
     
   });
 });
