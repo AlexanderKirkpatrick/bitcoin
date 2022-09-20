@@ -6,12 +6,12 @@ export class CurrentValue {
     this.currentValue;
   }
 
-  async getCurrentVale() {
+  async getCurrentValue() {
     
     let response = await BitcoinCompanies.getCoinInfo(this.userInput);
 
     if (response.result === "success") {
-      this.currentValue = response.price;
+      this.currentValue = response;
     } else {
       this.error = response;
     }
