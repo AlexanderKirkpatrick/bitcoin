@@ -51,12 +51,3 @@ $(document).ready(function() {
 
 
 
-// let promise = BitcoinCompanies.getCoinInfo(coin);
-//     promise.then(function(response) {
-//       const responseData = JSON.parse(response);
-//       $('.showNameBtc').append(`${responseData[0].id.name.price}`);
-//       // $('.showNameEth').append(`${responseData[1].name}`);
-//       // $('.showNameDoge').append(`${responseData[9].name}`);
-//       // for  (let i = 0; i < 10; i++) {
-//       //   $('.showName').append(`${responseData[i].name}`);
-//       // }
